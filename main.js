@@ -14,7 +14,7 @@ const secondAnimal = cleanAndCap(words.get('animal-2'));
 
 const answer = cleanAndCap(words.get('answer'));
 const conjunction = answer === 'Yes' ? 'and' : 'but';
-
+console.log({conjunction});
 const speed = words.get('speed');
 const adj1 = words.get('adj-1');
 
